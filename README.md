@@ -126,50 +126,46 @@ The project serves as a foundational exercise for managing DevOps projects with 
 ```bash
 git clone https://github.com/lokesh-matha/devops-project.git
 cd devops-project
-
+```
+---
 
 ## Work on a Feature
 
 ### Create a new branch
-     ```bash
+     
     git checkout -b feature/initial-setup
 
-     ```
 ### Make changes to the code
 
-     ```bash
+
     echo "print('Hello, DevOps!')" > app.py
 
 
-     ```
+
 ### Add and commit changes
-     ```bash
     git add .
     git commit -m "Implement initial-setup"
 
-     ```
 ### Push the branch
-     ```bash
-  git push -u origin feature/<feature-name>
-
-
-     ```
+```bash
+  git push -u origin feature/initial-setup
+```
 ## Merge Changes
 
 ### Open a pull request
 On GitHub, open a pull request to merge feature/<feature-name> into dev.
 
-###Review and Test
+### Review and Test
 Review the code and resolve any issues.
 Merge the pull request into dev
 
-###Merge dev into main
+### Merge dev into main
 ```bash
     git checkout main
     git merge dev
     git push
   ```
-##Task Documentation
+## Task Documentation
 All tasks and progress are documented in docs/tasks.md. Example tasks include:
 
  Initialize the repository
@@ -180,17 +176,17 @@ All tasks and progress are documented in docs/tasks.md. Example tasks include:
 
  Tag releases
 
-##Versioning
+## Versioning
 Versioning is managed using Git tags to track stable releases:
 
 v1.0: Initial setup with branching and basic configuration.
 
-###To create a new version
-  ```bash
+### To create a new version
+
       git tag -a v1.1 -m "Description of changes"
       git push origin v1.1
-    ```
-##Authors
+
+## Authors
 Naga Lokesh Mathaa
 
 
