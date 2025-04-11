@@ -2,8 +2,6 @@
 
 ## Build a Version-Controlled DevOps Project with Git
 
-# DevOps Project
-
 ## Project Overview
 This project is a hands-on implementation of a version-controlled DevOps workflow using Git and GitHub. It demonstrates best practices for repository management, branching strategies, pull requests, tagging, and documentation. 
 
